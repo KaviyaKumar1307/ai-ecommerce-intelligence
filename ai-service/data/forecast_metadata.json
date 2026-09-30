@@ -1,0 +1,19 @@
+{
+  "model": "RandomForestRegressor",
+  "version": "1.0.0",
+  "trained_at": "2026-09-30T13:25:43.064853Z",
+  "features": [
+    "day_of_week",
+    "day",
+    "month",
+    "is_weekend",
+    "lag_1",
+    "lag_7",
+    "rolling_7"
+  ],
+  "metrics": {
+    "mae": 25700.47,
+    "rmse": 29990.34,
+    "r2": 0.7511
+  }
+}
